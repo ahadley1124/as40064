@@ -22,6 +22,7 @@ pub fn header() -> Html {
                     <li><Link<Route> to={Route::About}>{ "About" }</Link<Route>></li>
                     <li><Link<Route> to={Route::Contact}>{ "Contact" }</Link<Route>></li>
                     <li><Link<Route> to={Route::Pricing}>{ "Pricing" }</Link<Route>></li>
+                    <li><Link<Route> to={Route::Peers}>{ "Peers" }</Link<Route>></li>
                 </ul>
             </nav>
         </header>

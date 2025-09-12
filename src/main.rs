@@ -12,6 +12,8 @@ enum Route {
     Contact,
     #[at("/pricing")]
     Pricing,
+    #[at("/peers")]
+    Peers,
     #[at("/ExchangePolicy.pdf")]
     Policy,
     #[not_found]
@@ -26,6 +28,7 @@ fn switch(routes: Route) -> Html {
         Route::About => html! { <site::about::About /> },
         Route::Contact => html! { <site::contact::Contact /> },
         Route::Pricing => html! { <site::pricing::Pricing /> },
+        Route::Peers => html! { <site::peers::Peers /> },
         Route::Policy => html! {
             <iframe src="/Amateur_Virtual_Internet_Exchange_Policy_V1.0.pdf" width="100%" height="800px" title="Exchange Policy PDF" />
         },
