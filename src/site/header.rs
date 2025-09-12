@@ -12,7 +12,7 @@ pub fn header() -> Html {
         </style>
         <header class={classes!("header")}> 
             <nav class={classes!("header-nav")}> 
-                <div class={classes!("header-left")}> 
+                <div class={classes!("header-left")}>
                     <Link<Route> to={Route::Home}>
                         { "AS40064" }
                     </Link<Route>>
@@ -22,6 +22,7 @@ pub fn header() -> Html {
                     <li><Link<Route> to={Route::About}>{ "About" }</Link<Route>></li>
                     <li><Link<Route> to={Route::Contact}>{ "Contact" }</Link<Route>></li>
                     <li><Link<Route> to={Route::Pricing}>{ "Pricing" }</Link<Route>></li>
+                    <li><Link<Route> to={Route::Peers}>{ "Peers" }</Link<Route>></li>
                 </ul>
             </nav>
         </header>
