@@ -14,30 +14,42 @@ pub fn peers() -> Html {
             <table class="peers-table">
                 <thead>
                     <tr>
-                        <th>{ "Peer" }</th>
-                        <th>{ "Details" }</th>
+                        <th>{ "Peer Name" }</th>
+                        <th>{ "AS" }</th>
+                        <th>{ "IPv4 Address" }</th>
+                        <th>{ "IPv6 Address" }</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{ "Route Server 1 AS40064" }</td>
-                        <td>{ "149.112.177.1/24 2602:fa86:fff:ffff::1/64" }</td>
+                        <td>{ "Route Server 1" }</td>
+                        <td>{ "AS40064" }</td>
+                        <td>{ "149.112.177.1/24" }</td>
+                        <td>{ "2602:fa86:fff:ffff::1/64" }</td>
                     </tr>
                     <tr>
-                        <td>{ "Route Server 2 AS40064" }</td>
-                        <td>{ "149.112.177.2/24 2602:fa86:fff:ffff::2/64" }</td>
+                        <td>{ "Route Server 2" }</td>
+                        <td>{ "AS40064" }</td>
+                        <td>{ "149.112.177.2/24" }</td>
+                        <td>{ "2602:fa86:fff:ffff::2/64" }</td>
                     </tr>
                     <tr>
-                        <td>{ "Austin Hadley AS17290" }</td>
-                        <td>{ "149.112.177.3/24 2602:fa86:fff:ffff::3/64" }</td>
+                        <td>{ "Austin Hadley" }</td>
+                        <td>{ "AS17290" }</td>
+                        <td>{ "149.112.177.3/24" }</td>
+                        <td>{ "2602:fa86:fff:ffff::3/64" }</td>
                     </tr>
                     <tr>
-                        <td>{ "Bastiaan Brink AS215248" }</td>
-                        <td>{ "149.112.177.4/24 2602:fa86:fff:ffff::4/64" }</td>
+                        <td>{ "Bastiaan Brink" }</td>
+                        <td>{ "AS215248" }</td>
+                        <td>{ "149.112.177.4/24" }</td>
+                        <td>{ "2602:fa86:fff:ffff::4/64" }</td>
                     </tr>
                     <tr>
-                        <td>{ "Ashland Area Amateur Radio Club AS40419" }</td>
-                        <td>{ "149.112.177.5/24 2602:fa86:fff:ffff::5/64" }</td>
+                        <td>{ "Ashland Area Amateur Radio Club" }</td>
+                        <td>{ "AS40419" }</td>
+                        <td>{ "149.112.177.5/24" }</td>
+                        <td>{ "2602:fa86:fff:ffff::5/64" }</td>
                     </tr>
                 </tbody>
             </table>
@@ -54,6 +66,8 @@ fn peers_style() -> String {
             /* Only top and bottom outer borders */
             border-top: 2px solid #ccc;
             border-bottom: 2px solid #ccc;
+            /* Center the text */
+            text-align: center;
         }
         /* Remove any cell borders so there are no side lines */
         .peers-table td {
