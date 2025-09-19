@@ -57,6 +57,12 @@ pub fn peers() -> Html {
                         <td>{ "149.112.177.6/24" }</td>
                         <td>{ "2602:fa86:fff:ffff::6/64" }</td>
                     </tr>
+                    <tr>
+                        <td>{ "Bastiaan Mathijs Brink" }</td>
+                        <td>{ "AS396064" }</td>
+                        <td>{ "149.112.177.7/24" }</td>
+                        <td>{ "2602:fa86:fff:ffff::7/64" }</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
