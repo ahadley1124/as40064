@@ -21,11 +21,11 @@ pub fn pricing() -> Html {
                 <tbody>
                     <tr>
                         <td>{ "VM with 100Mb/s connection" }</td>
-                        <td>{ "$5/month" }</td>
+                        <td>{ "$20/month" }</td>
                     </tr>
                     <tr>
                         <td>{ "VM with 1Gb/s connection" }</td>
-                        <td>{ "$10/month" }</td>
+                        <td>{ "$40/month" }</td>
                     </tr>
                     <tr>
                         <td>{ "Colo with 100Mb/s connection" }</td>
